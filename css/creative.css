@@ -12,7 +12,7 @@ body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
 hr {
-  border-color: #67D05D;
+  border-color: #2ECC71;
   border-width: 3px;
   max-width: 50px;
 }
@@ -23,11 +23,11 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #67D05D;
+  color: #2ECC71;
 }
 a:hover,
 a:focus {
-  color: #67D05D;
+  color: #2ECC71;
 }
 h1,
 h2,
@@ -43,7 +43,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #67D05D;
+  background-color: #2ECC71;
 }
 .bg-dark {
   background-color: #222222;
@@ -61,6 +61,12 @@ aside {
 .no-padding {
   padding: 0;
 }
+.input-group-btn {
+  padding-left: 8px;
+}
+.btn-success {
+  background-color: #2ECC71;
+}
 .navbar-default {
   background-color: #000;
   border-color: rgba(34, 34, 34, 0.05);
@@ -70,14 +76,14 @@ aside {
   transition: all 0.35s;
 }
 .navbar-default .navbar-header .navbar-brand {
-  color: #67D05D;
+  color: #2ECC71;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-weight: 700;
-  /*text-transform: uppercase;*/
+  text-transform: none;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-  color: #67D05D;
+  color: #2ECC71;
 }
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
@@ -94,11 +100,11 @@ aside {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #67D05D;
+  color: #2ECC71;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #67D05D !important;
+  color: #2ECC71 !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -143,7 +149,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #67D05D;
+    color: #2ECC71;
   }
 }
 header {
@@ -281,7 +287,7 @@ header .header-content .header-content-inner p {
   margin: 0 auto 20px;
 }
 .text-primary {
-  color: #67D05D;
+  color: #2ECC71;
 }
 .no-gutter > [class*='col-'] {
   padding-right: 0;
@@ -337,8 +343,8 @@ fieldset[disabled] .btn-default.active {
 }
 .btn-primary {
   color: white;
-  background-color: #67D05D;
-  border-color: #67D05D;
+  background-color: #2ECC71;
+  border-color: #2ECC71;
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
@@ -376,11 +382,11 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #67D05D;
-  border-color: #67D05D;
+  background-color: #2ECC71;
+  border-color: #2ECC71;
 }
 .btn-primary .badge {
-  color: #67D05D;
+  color: #2ECC71;
   background-color: white;
 }
 .btn {
